@@ -188,7 +188,7 @@ ul.filtres-button li a {
 	display: block;
 	padding: 6px 10px;
 	border-radius: 20px 20px 20px 20px;
-	border-radius: 20px 20px 20px 20px;
+	
 }
 
 ul.filtres-button li a:hover {
@@ -462,7 +462,7 @@ footer div li {
 /* ////////////////////////////------------- T  A  B  L  E  T  T  E -------------------////////////////////////*/
 /* ////////////////////////////--------------T  A  B  L  E  T  T  E--------------------////////////////////////*/
 /* /////////////////////////////-----------Tablette entre 990px et 768px-------------/////////////////////////*/
-@media screen and (min-width:768px) and (max-width:990px) {
+@media screen and (max-width:992px) {
 
 	/*/
 	/////////////////// ---Début FILTRES ---TABELETTE //////////////////// */
@@ -711,14 +711,15 @@ footer div li {
 	/*/
 	///////////////////Début POPULAIRE//////////////////// */
 	section.populaire {
-
 		border-radius: 0px;
 		margin: 0px -30px 20px -30px;
+		width: auto;
 
 	}
 
 	.populaire ul {
-		width: 100%;
+		
+		flex-direction: column;
 
 	}
 
